@@ -37,7 +37,7 @@ Spatial coupling is introduced via diffusion of the voltage-like variable:
 When the voltage threshold is exceeded, $v \ge v_{peak}$, the following reset/update is performed:
 
 <p align="left">
-<img width="300" src="images/izh_update_189_84.png">
+<img width="200" src="images/izh_update_189_84.png">
 </p>
 
 <!--
