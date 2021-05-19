@@ -3,7 +3,7 @@
 This repo contains implementations of the Izhikevich model of cellular excitability on a 2D lattice.  
 The code is available in Python and Julia.  
 
-**Refs.:**  
+**References:**  
 Izhikevich, E., Simple model of spiking neurons. __*IEEE Transactions on Neural Networks*__ 14(6):1569-1572, 2003.  
 Izhikevich, E., Which model to use for cortical spiking neurons? __*IEEE Transactions on Neural Networks*__ 15(5):1063-1070, 2004.
 
@@ -31,13 +31,13 @@ The Izhikevich model uses two variables to model membrane potential dynamics in 
 Spatial coupling is introduced via diffusion of the voltage-like variable:
 
 <p align="left">
-<img width="800" src="images/izh_equations_536_142.png">
+<img width="600" src="images/izh_equations_536_142.png">
 </p>
 
 When the voltage threshold is exceeded, $v \ge v_{peak}$, the following reset/update is performed:
 
 <p align="left">
-<img width="400" src="images/izh_update_189_84.png">
+<img width="300" src="images/izh_update_189_84.png">
 </p>
 
 <!--
