@@ -1,5 +1,7 @@
 # Izhikevich lattice model in *Python* and *julia*
 
+[![DOI](https://zenodo.org/badge/368750161.svg)](https://zenodo.org/badge/latestdoi/368750161)
+
 This repo contains implementations of the Izhikevich model of cellular excitability on a 2D lattice.  
 The code is available in Python and Julia.  
 
