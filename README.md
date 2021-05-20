@@ -47,7 +47,6 @@ Noise is added via stochastic integration of the variable $v$:
 <p align="left">
 <img width="280" src="images/izh_integration.png">
 </p>
--->
 
 The main function call running the simulation is: `izh2d(N, T, t0, dt, s, D, a, b, c, d, v0, vpeak, I, stim, blocks)`:  
 - `N`: lattice size `(N,N)`
