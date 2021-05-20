@@ -73,7 +73,7 @@ Parameters:
 `N = 128, T = 15000, t0 = 500, dt = 0.05, s = 1.0, D = 0.075, a = 0.02, b = 0.2, c = -50, d = 2.0, v0 = -70, vpeak = 30, I = 15`
 
 <p align="center">
-<video src="videos/izh2d_I_15.0_s_1.00_D_0.075.webm" width="256" height="256" controls preload></video>
+<video src="videos/izh2d_I_15.00_s_1.00_D_0.07.webm" width="256" height="256" controls preload></video>
 </p>
 
 ### Conclusions
