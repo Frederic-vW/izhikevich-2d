@@ -33,20 +33,19 @@ The Izhikevich model uses two variables to model membrane potential dynamics in 
 Spatial coupling is introduced via diffusion of the voltage-like variable:
 
 <p align="left">
-<img width="600" src="images/izh_equations_536_142.png">
+<img width="600" src="images/izh_equations.png">
 </p>
 
 When the voltage threshold is exceeded, $v \ge v_{peak}$, the following reset/update is performed:
 
 <p align="left">
-<img width="200" src="images/izh_update_189_84.png">
+<img width="200" src="images/izh_update.png">
 </p>
 
-<!--
-Noise is added via Itô-integration:
+Noise is added via stochastic integration of the variable $v$:
 
 <p align="left">
-<img width="280" src="images/fhn_sde_368_96_bg.png">
+<img width="280" src="images/izh_integration.png">
 </p>
 -->
 
